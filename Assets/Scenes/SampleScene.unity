@@ -314,13 +314,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.94, y: -0.85, z: -11.43}
+  m_LocalRotation: {x: 0.33785197, y: -0, z: -0, w: 0.94119924}
+  m_LocalPosition: {x: -8.39, y: 3.43, z: -11.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 39.492, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,8 +588,8 @@ Transform:
   m_GameObject: {fileID: 471955745}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.23, y: -3.344, z: 3.784}
-  m_LocalScale: {x: 10.2502365, y: 1, z: 1}
+  m_LocalPosition: {x: -8.23, y: -2.628, z: 3.784}
+  m_LocalScale: {x: 10.2502365, y: 2.3964477, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -696,8 +696,8 @@ Transform:
   m_GameObject: {fileID: 817097334}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.74, y: -3.344, z: -1.32}
-  m_LocalScale: {x: 1, y: 1, z: 11.202618}
+  m_LocalPosition: {x: -13.74, y: -2.628, z: -1.32}
+  m_LocalScale: {x: 1, y: 2.3964477, z: 11.202618}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -853,8 +853,8 @@ Transform:
   m_GameObject: {fileID: 1353211084}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.25, y: -3.344, z: -7.211}
-  m_LocalScale: {x: 12, y: 1, z: 1}
+  m_LocalPosition: {x: -8.25, y: -2.628, z: -7.211}
+  m_LocalScale: {x: 12, y: 2.3964477, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -963,7 +963,7 @@ Transform:
   m_GameObject: {fileID: 1764708167}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.240692, y: 8.26, z: -1.713151}
+  m_LocalPosition: {x: -8.03, y: 4.09, z: -1.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1010,6 +1010,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereRigidbody: {fileID: 1764708172}
   ballSpeed: 2
+  jumpForce: 5
+  isGrounded: 1
 --- !u!1 &1911353185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,8 +1114,8 @@ Transform:
   m_GameObject: {fileID: 1911353185}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.746, y: -3.344, z: -1.35}
-  m_LocalScale: {x: 1, y: 1, z: 11.274545}
+  m_LocalPosition: {x: -2.746, y: -2.628, z: -1.35}
+  m_LocalScale: {x: 1, y: 2.3964477, z: 11.274545}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
